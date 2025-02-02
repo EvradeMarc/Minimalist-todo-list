@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List Interactive</title>
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>To-Do List Interactive</h1>
+    </header>
+    <main>
+      <input
+        type="text"
+        id="searchBar"
+        class="search-bar"
+        placeholder="Rechercher une tâche..."
+      />
+
+      <div class="counter">
+        <p>Tâche(s) active(s) :</p>
+        <p id="activeTask">0</p>
+        <p>Tâche(s) terminée(s) :</p>
+        <p id="completedTask">0</p>
+      </div>
+
+      <ul id="taskList">
+        <!-- Les tâches seront ajoutées ici -->
+      </ul>
+      <button id="addTaskBtn" class="btn">Ajouter une tâche</button>
+    </main>
+    <footer>
+      <p>&copy; 2024 - Tous droits réservés</p>
+    </footer>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
